@@ -202,7 +202,7 @@ function(set_target_common_gns_properties TGT)
 	endif()
 
 	set_target_properties(${TGT} PROPERTIES
-		CXX_STANDARD 11
+		CXX_STANDARD 17
 	)
 endfunction()
 
